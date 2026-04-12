@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Homepage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-[#DDE5C2] font-sans">
+    <!-- Container -->
+    <div class="flex h-screen">
+      <!-- SIDEBAR -->
+      <div class="w-64 bg-[#DDE5C2] border-r border-gray-400 flex flex-col">
+        <!-- Logo -->
+        <div class="p-6 text-3xl font-serif text-green-500">
+          <img
+            src="/aset/nature-removebg-preview.png"
+            class="w-90 mx-auto mb-4"
+          />
+          <div class="w-screen border-b border-gray-400"></div>
+        </div>
+
+        <!-- Menu -->
+        <div class="flex flex-col gap-6 px-6 mt-4 text-gray-800">
+          <div
+            class="flex items-center gap-3 bg-green-500 text-black px-3 py-2 rounded"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/1946/1946488.png"
+              class="w-5 h-5"
+            />
+            <span>Home</span>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/182/182321.png"
+              class="w-5 h-5"
+            />
+            <span>Materi</span>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/9920/9920947.png"
+              class="w-5 h-5"
+            />
+            <span>Artikel</span>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/3602/3602145.png"
+              class="w-5 h-5"
+            />
+            <span>Notification</span>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <a href="view/profile.html" class="flex items-center gap-2">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/456/456283.png"
+                class="w-5 h-5"
+              />
+              <span>Profile</span>
+            </a>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/2099/2099058.png"
+              class="w-5 h-5"
+            />
+            <span>Settings</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- MAIN CONTENT -->
+      <div class="flex-1 p-10">
+        <!-- Header -->
+        <div
+          class="bg-white rounded-xl p-6 flex justify-between items-center shadow mt-20"
+        >
+          <div>
+            <p class="text-gray-600">welcome!</p>
+            <h1 class="text-2xl font-semibold">Alexander Halim</h1>
+          </div>
+
+          <a href="./view/profile.html">
+            <img
+              src="/aset/photo_6248746660984983040_y.jpg"
+              class="w-16 h-16 object-cover rounded-full hover:scale-105 transition cursor-pointer"
+            />
+          </a>
+        </div>
+
+        <!-- Title -->
+        <h2 class="mt-8 text-2xl font-semibold">Rekomendasi</h2>
+
+        <!-- Card 1 -->
+        <div
+          class="bg-white rounded-xl p-6 mt-4 flex justify-between items-center shadow"
+        >
+          <div>
+            <h3 class="text-gray-600 text-lg">
+              Memilah Sampah Organik dan <br />
+              Anorganik Sejak Dini
+            </h3>
+
+            <button class="mt-4 bg-green-500 px-4 py-2 rounded text-black">
+              view detail
+            </button>
+          </div>
+
+          <img src="/aset/3.png" class="w-28 h-28 rounded-md object-cover" />
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="bg-white rounded-xl p-6 mt-6 flex justify-between items-center shadow"
+        >
+          <div>
+            <h3 class="text-gray-600 text-lg">
+              Mengubah Sisa Makanan Menjadi <br />
+              Pupuk
+            </h3>
+
+            <button class="mt-4 bg-green-500 px-4 py-2 rounded text-black">
+              view detail
+            </button>
+          </div>
+
+          <img src="/aset/10.png" class="w-28 h-28 rounded-md object-cover" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
